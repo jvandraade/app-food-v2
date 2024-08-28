@@ -25,4 +25,6 @@ Também consta com uma barra de pesquisar para pesquisar qual a comida você iri
 ## Frameworks and Librarys references
 Expo: https://expo.dev
 Tailwind CSS: https://tailwindcss.com
+Json-Server: https://www.npmjs.com/package/json-server
 - Lembrando que na instalação do expo já vem automaticamente a instalação do typescript e do react. Só precisa instalar o node.js antes.
+- E também lembre de configurar todo projeto da sua forma para não ter erro no código.
