@@ -1,50 +1,28 @@
-# Welcome to your Expo app 👋
+## Projeto APP
+Esse é um CRUD Home de um aplicativo de comida (inspirado no Ifood), para aprender um pouco mais sobre typescript e librarys.
+As ferramentas utilizadas foram Expo-app, Typescript, TailWind CSS e React Js.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Base URL
+- http://localhost:3000
 
-## Get started
+## Base API responses
+- IP/restaurants
+- IP/foods
+- MÉTODO HTTP: GET
 
-1. Install dependencies
+## API 
+Foi criada uma Fake API por mim mesmo em formato json, utilizando Json-server.
 
-   ```bash
-   npm install
-   ```
+## Estilização
 
-2. Start the app
+Utilizei a library de Tailwind CSS para automatizar e facilitar a estilização do código.
 
-   ```bash
-    npx expo start
-   ```
+## Funcionalidade
+O aplicativo em si funciona como se fosse um delivery inspirado no Ifood, por enquanto ainda só tem a tela de Home mas sem funcionalidades a mais através de um back-end.
+A tela inicial demonstra promoções através de um banner, além de mostrar comidas que estão em promoção, e os melhores restaurantes da região de 'Aracaju'.
+Também consta com uma barra de pesquisar para pesquisar qual a comida você iria pedir naquele mesmo dia.
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Frameworks and Librarys references
+Expo: https://expo.dev
+Tailwind CSS: https://tailwindcss.com
+- Lembrando que na instalação do expo já vem automaticamente a instalação do typescript e do react. Só precisa instalar o node.js antes.
